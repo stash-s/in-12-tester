@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:in-12-tester-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L parts_library:IN-12 T1
+L Russian_Lamps:IN-12 T1
 U 1 1 5B499E3D
 P 2350 3500
 F 0 "T1" H 2350 4365 50  0000 C CNN
@@ -37,7 +36,7 @@ F 3 "" H 2350 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L parts_library:mmbta92 Q1
+L Parts_Stash:MMBTA92 Q1
 U 1 1 5B49A110
 P 2250 1650
 F 0 "Q1" H 2441 1604 50  0000 L CNN
@@ -59,7 +58,7 @@ F 3 "" H 1850 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L parts_library:MMBTA42 Q2
+L Parts_Stash:MMBTA42 Q2
 U 1 1 5B49A7EF
 P 4500 6700
 F 0 "Q2" H 4691 6746 50  0000 L CNN
@@ -179,18 +178,18 @@ F 3 "" H 3550 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L parts_library:ins-1 L1
+L Russian_Lamps:ins-1 L1
 U 1 1 5B49D974
 P 3550 1850
 F 0 "L1" V 3504 1974 50  0000 L CNN
-F 1 "ins-1" V 3595 1974 50  0000 L CNN
-F 2 "Parts:ins-1" V 3550 1850 50  0001 C CNN
+F 1 "INS-1" V 3595 1974 50  0000 L CNN
+F 2 "PartsStash:INS-1" V 3550 1850 50  0001 C CNN
 F 3 "" V 3550 1850 50  0001 C CNN
 	1    3550 1850
 	0    1    1    0   
 $EndComp
 $Comp
-L parts_library:MMBTA42 Q6
+L Parts_Stash:MMBTA42 Q6
 U 1 1 5B49DBDA
 P 2800 5100
 F 0 "Q6" H 2991 5146 50  0000 L CNN
@@ -245,7 +244,7 @@ Wire Wire Line
 	2350 1450 2350 1050
 Connection ~ 2350 1050
 $Comp
-L parts_library:mmbta92 Q4
+L Parts_Stash:MMBTA92 Q4
 U 1 1 5B4A1078
 P 4700 1500
 F 0 "Q4" H 4890 1454 50  0000 L CNN
@@ -278,12 +277,12 @@ F 3 "" H 4600 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L parts_library:ins-1 L2
+L Russian_Lamps:ins-1 L2
 U 1 1 5B4A125B
 P 4600 2400
 F 0 "L2" V 4554 2524 50  0000 L CNN
-F 1 "ins-1" V 4645 2524 50  0000 L CNN
-F 2 "Parts:ins-1" V 4600 2400 50  0001 C CNN
+F 1 "INS-1" V 4645 2524 50  0000 L CNN
+F 2 "PartsStash:INS-1" V 4600 2400 50  0001 C CNN
 F 3 "" V 4600 2400 50  0001 C CNN
 	1    4600 2400
 	0    1    1    0   
@@ -311,7 +310,7 @@ F 3 "" H 1600 7000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L parts_library:MMBTA42 Q5
+L Parts_Stash:MMBTA42 Q5
 U 1 1 5B4A23C0
 P 1900 6750
 F 0 "Q5" H 2090 6796 50  0000 L CNN
@@ -389,7 +388,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 4700 2900 4900
 $Comp
-L parts_library:MMBTA42 Q8
+L Parts_Stash:MMBTA42 Q8
 U 1 1 5B4B391D
 P 3650 5100
 F 0 "Q8" H 3841 5146 50  0000 L CNN
@@ -436,7 +435,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 4700 3750 4900
 $Comp
-L parts_library:MMBTA42 Q7
+L Parts_Stash:MMBTA42 Q7
 U 1 1 5B4B51C2
 P 1000 5100
 F 0 "Q7" H 1191 5146 50  0000 L CNN
@@ -481,7 +480,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 4850 1100 4900
 $Comp
-L parts_library:MMBTA42 Q9
+L Parts_Stash:MMBTA42 Q9
 U 1 1 5B4B6FA3
 P 4500 5100
 F 0 "Q9" H 4691 5146 50  0000 L CNN
@@ -528,7 +527,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 4700 4600 4900
 $Comp
-L parts_library:MMBTA42 Q10
+L Parts_Stash:MMBTA42 Q10
 U 1 1 5B4B8120
 P 5350 5100
 F 0 "Q10" H 5541 5146 50  0000 L CNN
@@ -575,7 +574,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 4700 5450 4900
 $Comp
-L parts_library:MMBTA42 Q11
+L Parts_Stash:MMBTA42 Q11
 U 1 1 5B4B9668
 P 2800 6750
 F 0 "Q11" H 2991 6796 50  0000 L CNN
@@ -622,7 +621,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 6350 2900 6550
 $Comp
-L parts_library:MMBTA42 Q12
+L Parts_Stash:MMBTA42 Q12
 U 1 1 5B4BAEE4
 P 3650 6750
 F 0 "Q12" H 3841 6796 50  0000 L CNN
@@ -669,7 +668,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 6350 3750 6550
 $Comp
-L parts_library:MMBTA42 Q13
+L Parts_Stash:MMBTA42 Q13
 U 1 1 5B4BCB82
 P 5250 2400
 F 0 "Q13" H 5441 2446 50  0000 L CNN
@@ -712,7 +711,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 2400 5550 2450
 $Comp
-L parts_library:MMBTA42 Q14
+L Parts_Stash:MMBTA42 Q14
 U 1 1 5B4BEC46
 P 3450 2400
 F 0 "Q14" H 3641 2446 50  0000 L CNN
@@ -753,7 +752,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 2400 3150 2450
 $Comp
-L parts_library:MMBTA42 Q15
+L Parts_Stash:MMBTA42 Q15
 U 1 1 5B4C10E0
 P 1900 5100
 F 0 "Q15" H 2091 5146 50  0000 L CNN
@@ -800,7 +799,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 4700 2000 4900
 $Comp
-L parts_library:MMBTA42 Q16
+L Parts_Stash:MMBTA42 Q16
 U 1 1 5B4CAFAB
 P 1750 2400
 F 0 "Q16" H 1941 2446 50  0000 L CNN
@@ -850,7 +849,7 @@ F 3 "" H 1100 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L parts_library:MMBTA42 Q3
+L Parts_Stash:MMBTA42 Q3
 U 1 1 5B4D7431
 P 1000 6750
 F 0 "Q3" H 1191 6796 50  0000 L CNN
@@ -1088,7 +1087,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 850  6450 750 
 $Comp
-L parts_library:max1771 U1
+L Parts_Stash:MAX1771 U1
 U 1 1 5B71C581
 P 7900 2600
 F 0 "U1" H 7600 3050 50  0000 C CNN
@@ -1418,7 +1417,7 @@ Wire Wire Line
 	10600 1400 10600 1500
 Connection ~ 10600 1500
 $Comp
-L Mechanical:Mounting_Hole MK1
+L Mechanical:MountingHole MK1
 U 1 1 5B9313A3
 P 8900 4450
 F 0 "MK1" H 9000 4496 50  0000 L CNN
@@ -1429,7 +1428,7 @@ F 3 "" H 8900 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK3
+L Mechanical:MountingHole MK3
 U 1 1 5B9314D3
 P 9300 4450
 F 0 "MK3" H 9400 4496 50  0000 L CNN
@@ -1440,7 +1439,7 @@ F 3 "" H 9300 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK4
+L Mechanical:MountingHole MK4
 U 1 1 5B931565
 P 9300 4750
 F 0 "MK4" H 9400 4796 50  0000 L CNN
@@ -1451,7 +1450,7 @@ F 3 "" H 9300 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK2
+L Mechanical:MountingHole MK2
 U 1 1 5B9315FD
 P 8900 4750
 F 0 "MK2" H 9000 4796 50  0000 L CNN
@@ -1533,7 +1532,7 @@ Connection ~ 3550 2100
 Wire Wire Line
 	3550 2100 3550 2200
 $Comp
-L parts_library:THERMAL_VIA U3
+L Parts_Stash:THERMAL_VIA U3
 U 1 1 5BA2A652
 P 8900 5100
 F 0 "U3" H 8950 5150 50  0001 C CNN
@@ -1544,7 +1543,7 @@ F 3 "" H 8750 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L parts_library:THERMAL_VIA U4
+L Parts_Stash:THERMAL_VIA U4
 U 1 1 5BA2A731
 P 9100 5100
 F 0 "U4" H 9150 5150 50  0001 C CNN
@@ -1555,7 +1554,7 @@ F 3 "" H 8950 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L parts_library:THERMAL_VIA U5
+L Parts_Stash:THERMAL_VIA U5
 U 1 1 5BA34D07
 P 9300 5100
 F 0 "U5" H 9350 5150 50  0001 C CNN
@@ -1566,7 +1565,7 @@ F 3 "" H 9150 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L parts_library:THERMAL_VIA U6
+L Parts_Stash:THERMAL_VIA U6
 U 1 1 5BA34D90
 P 9500 5100
 F 0 "U6" H 9550 5150 50  0001 C CNN
@@ -1577,7 +1576,7 @@ F 3 "" H 9350 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L parts_library:THERMAL_VIA U7
+L Parts_Stash:THERMAL_VIA U7
 U 1 1 5BA34E19
 P 9700 5100
 F 0 "U7" H 9750 5150 50  0001 C CNN
@@ -1587,17 +1586,6 @@ F 3 "" H 9550 5100 50  0001 C CNN
 	1    9700 5100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9700 5200 9500 5200
-Wire Wire Line
-	9500 5200 9300 5200
-Connection ~ 9500 5200
-Wire Wire Line
-	9300 5200 9100 5200
-Connection ~ 9300 5200
-Wire Wire Line
-	9100 5200 8900 5200
-Connection ~ 9100 5200
 $Comp
 L power:GND #PWR0102
 U 1 1 5BA5D6FA
@@ -1622,5 +1610,6 @@ F 3 "" H 8900 5300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8900 5300 8900 5200
-Connection ~ 8900 5200
+Wire Wire Line
+	8900 5200 9700 5200
 $EndSCHEMATC
