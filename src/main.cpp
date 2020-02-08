@@ -13,8 +13,8 @@ struct neon_t {
 const int neon_1_pin = 10;
 
 neon_t dots[] = {
-    {1, LOW},
-    {9, HIGH, true},
+    {11, LOW, false},
+    {9, LOW, true},
     {10,LOW, true},
 };
 
@@ -22,21 +22,26 @@ const uint8_t max_dot = sizeof (dots) / sizeof (neon_t);
 
 neon_t digits[] =
 {
-    {13, LOW},
-    {0,  LOW},
+    {0, LOW},
+    //{1, LOW},
     {2,  LOW},
     {3,  LOW},
     {4,  LOW},
-    {5,  LOW},
+    {5,  LOW}, // good
     {6,  LOW},
     {7,  LOW},
-    {8,  LOW},
-    {12, LOW},
+    {8,  LOW},  // good
+    {12,  LOW},  // good
+    {13, LOW},
+    //{12, LOW},   // good
+    //{12, LOW},
+    //{13, LOW},
+    //{13, LOW}
 };
 
 const int max_digit = sizeof(digits) / sizeof (neon_t);
 
-uint8_t pwm_levels[] = {15, 31, 63, 127, 255, 127, 63, 31};
+uint8_t pwm_levels[] = {16, 31, 63, 127, 255, 127, 63, 31};
 const uint8_t max_pwm_level = sizeof (pwm_levels) / sizeof (uint8_t);
 
 neon_t anode = {11, LOW};
@@ -57,6 +62,8 @@ void setup() {
 
     pinMode (anode.pin, OUTPUT);
     digitalWrite (anode.pin, HIGH);
+
+    //Serial.begin (9600);
 }
 
 void loop() {
@@ -65,9 +72,17 @@ void loop() {
     static uint8_t dot_counter=0;
     static uint8_t pwm_counter=0;
 
+    //Serial.print ("Displaying digit: ");
+    //Serial.print (digit_counter);
+    //Serial.print (" pwm: ");
+    //Serial.print (pwm_levels[pwm_counter]);
+    //Serial.println();
+
     for (int i=0; i < max_digit; ++i) {
+        //digitalWrite (digits[i].pin, LOW);
         digitalWrite (digits[i].pin, digit_counter == i ? HIGH : LOW);
     }
+
 
     for (int i=0; i < max_dot; ++i) {
         auto & dot = dots[i];
